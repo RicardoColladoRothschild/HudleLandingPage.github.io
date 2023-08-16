@@ -44,3 +44,29 @@ header svg {
   background-position: center;
   background-size: contain;
 }
+.main-container .subtitle-main--container {
+  width: 100%;
+  min-width: 320px;
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -160px;
+  padding: 20px;
+}
+.main-container .subtitle-main--container h2 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  margin-bottom: 21px;
+}
+.main-container .subtitle-main--container p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: white;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 37px;
+}
