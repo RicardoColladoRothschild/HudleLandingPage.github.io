@@ -90,6 +90,7 @@ footer {
   justify-content: center;
 }
 footer .socialmedia-container {
+  padding-top: 25px;
   width: 250px;
   height: 65px;
   display: flex;
