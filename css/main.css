@@ -30,15 +30,15 @@ header svg {
   height: 85%;
   padding: 0 25px;
   align-items: center;
+  margin-bottom: 175px;
 }
 .main-container .image-main--container {
   width: 100%;
-  height: 85vh;
-  padding-top: 28px;
+  height: auto;
 }
 .main-container .image-main--container .image-container {
-  width: 100%;
-  height: 50%;
+  width: 300px;
+  height: 300px;
   background-image: url("../img/illustration-mockups.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ header svg {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: -120px;
+  margin-top: 20px;
   padding: 20px;
 }
 .main-container .subtitle-main--container h2 {
@@ -97,7 +97,6 @@ footer .socialmedia-container {
   gap: 15px;
 }
 footer .socialmedia-container svg {
-  margin-top: 25px;
   width: 47px;
   height: 47px;
 }
