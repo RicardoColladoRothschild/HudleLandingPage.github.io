@@ -47,7 +47,7 @@ header svg {
 .main-container .subtitle-main--container {
   width: 100%;
   min-width: 320px;
-  height: 288px;
+  height: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -69,4 +69,15 @@ header svg {
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 37px;
+}
+.main-container .subtitle-main--container .primary-button {
+  width: 215px;
+  height: 48px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: hsl(257, 40%, 49%);
+  border-radius: 50px;
+  align-self: center;
+  cursor: pointer;
 }
