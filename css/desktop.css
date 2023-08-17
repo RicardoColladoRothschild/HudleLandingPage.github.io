@@ -1,0 +1,23 @@
+body {
+  background-image: url("../img/bg-desktop.svg");
+  background-size: cover;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.main-container .image-main--container {
+  width: 50%;
+  height: auto;
+}
+.main-container .image-main--container .image-container {
+  width: 100%;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container .image-main--container .subtitle-main--containe {
+  width: 50%;
+}
