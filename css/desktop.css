@@ -1,21 +1,33 @@
 body {
   background-image: url("../img/bg-desktop.svg");
   background-size: cover;
+  display: grid;
+  place-items: center;
+}
+body header {
+  padding-left: 20px;
 }
 
 .main-container {
+  margin-top: 50px;
   width: 100%;
-  height: 50vh;
+  height: auto;
   display: flex;
   flex-direction: row;
+  gap: 35px;
 }
 .main-container .image-main--container {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 .main-container .image-main--container .image-container {
-  width: 100%;
+  width: 700px;
+  height: 500px;
+  background-image: url("../img/illustration-mockups.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 .main-container .image-main--container .subtitle-main--containe {
-  width: 50%;
+  width: 30%;
 }
