@@ -101,6 +101,12 @@ header{
                     border-radius:50px;
                     align-self: center;
                     cursor: pointer;
+                    border:none;
+                    box-shadow: 4px 8px 8px rgba(0,0,0,0.5);
+                        &:hover{
+                            color:whitesmoke;
+                            background-color: $secondary-color;
+                        }
                    
                 }
         }
@@ -125,6 +131,9 @@ footer{
             
             width:47px;
             height:47px;
+            &:hover{
+                fill:$secondary-color;
+            }
         }
         
     }

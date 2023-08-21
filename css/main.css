@@ -81,6 +81,12 @@ header svg {
   border-radius: 50px;
   align-self: center;
   cursor: pointer;
+  border: none;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);
+}
+.main-container .subtitle-main--container .primary-button:hover {
+  color: whitesmoke;
+  background-color: hsl(300, 69%, 71%);
 }
 
 footer {
@@ -100,4 +106,7 @@ footer .socialmedia-container {
 footer .socialmedia-container svg {
   width: 47px;
   height: 47px;
+}
+footer .socialmedia-container svg:hover {
+  fill: hsl(300, 69%, 71%);
 }
