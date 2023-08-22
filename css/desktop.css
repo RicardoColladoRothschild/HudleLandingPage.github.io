@@ -31,3 +31,8 @@ body header {
 .main-container .image-main--container .subtitle-main--containe {
   width: 30%;
 }
+
+footer {
+  flex-direction: column;
+  align-items: flex-end;
+}
