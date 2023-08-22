@@ -64,7 +64,8 @@ header{
    
         .subtitle-main--container{
             width:100%;
-            min-width:320px;
+            min-width:300px;
+            max-width:575px;
             height:auto;
             display:flex;
             flex-direction:column;

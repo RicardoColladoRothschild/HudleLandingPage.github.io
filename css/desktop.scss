@@ -19,10 +19,11 @@ body{
     flex-direction:row;
     gap:35px;
     .image-main--container{
-        width:60%;
+        width:50%;
         height: auto;
-        
+        padding-left:65px;
         .image-container{
+
             width:700px;
             height:500px;
             background-image: url('../img/illustration-mockups.svg');
@@ -34,10 +35,22 @@ body{
         }
         
         
-        .subtitle-main--containe{
-            width:30%;
-            
-        }
+        
+}
+
+.subtitle-main--container{
+    width:50%;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    padding-right:125px;
+    
+    .primary-button{
+        
+        margin-right:215px;
+    }
+    
+    
 }
 
 }

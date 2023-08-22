@@ -17,8 +17,9 @@ body header {
   gap: 35px;
 }
 .main-container .image-main--container {
-  width: 60%;
+  width: 50%;
   height: auto;
+  padding-left: 65px;
 }
 .main-container .image-main--container .image-container {
   width: 700px;
@@ -28,8 +29,15 @@ body header {
   background-position: center;
   background-size: auto;
 }
-.main-container .image-main--container .subtitle-main--containe {
-  width: 30%;
+.main-container .subtitle-main--container {
+  width: 50%;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  padding-right: 125px;
+}
+.main-container .subtitle-main--container .primary-button {
+  margin-right: 215px;
 }
 
 footer {
