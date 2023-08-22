@@ -41,6 +41,7 @@ body header {
 }
 
 footer {
+  height: 100px;
   flex-direction: column;
   align-items: flex-end;
 }
